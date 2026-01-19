@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ankita Debnath - Computer Science & Engineering undergraduate specializing in web development, UI/UX design, and software engineering.">
+  <meta name="keywords" content="Ankita Debnath, Computer Science, Web Developer, UI/UX Designer, Software Engineer, Portfolio">
+  <meta name="author" content="Ankita Debnath">
+  <meta property="og:title" content="Ankita Debnath | Computer Science Engineer">
+  <meta property="og:description" content="Passionate CSE undergraduate building impactful digital experiences through innovative software development.">
+  <meta property="og:type" content="website">
+  <title>Ankita Debnath | Computer Science Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="glass-nav" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <h2 class="logo" aria-label="Portfolio">Portfolio<span aria-hidden="true">🗃️</span></h2>
+    <ul class="nav-links" role="menubar">
+      <li role="none"><a href="index.html" role="menuitem" aria-current="page">Home</a></li>
+      <li role="none"><a href="about.html" role="menuitem">About</a></li>
+      <li role="none"><a href="skills.html" role="menuitem">Skills</a></li>
+      <li role="none"><a href="education.html" role="menuitem">Education</a></li>
+      <li role="none"><a href="projects.html" role="menuitem">Projects</a></li>
+      <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+    </ul>
+    <button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode"><span aria-hidden="true">🌙</span></button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobileMenu"><span aria-hidden="true">☰</span></button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation menu">
+  <button class="close-menu" id="closeMenu" aria-label="Close mobile menu"><span aria-hidden="true">✕</span></button>
+  <ul class="mobile-nav-links" role="menu">
+    <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+    <li role="none"><a href="about.html" role="menuitem">About</a></li>
+    <li role="none"><a href="skills.html" role="menuitem">Skills</a></li>
+    <li role="none"><a href="education.html" role="menuitem">Education</a></li>
+    <li role="none"><a href="projects.html" role="menuitem">Projects</a></li>
+    <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+  </ul>
+</div>
+
+<!-- HERO SECTION -->
+<main>
+  <section id="home" class="hero">
+    <div class="hero-content reveal">
+      <div class="profile-image-container">
+        <img src="image/My_photo.jpg" alt="Ankita Debnath - Computer Science Engineering Student" class="profile-pic" id="profilePic" loading="eager">
+        <div class="profile-glow" aria-hidden="true"></div>
+      </div>
+      
+      <h1 class="hero-title">
+        <span class="gradient-text">Ankita Debnath</span>
+      </h1>
+      
+      <div class="typing-container">
+        <p class="hero-subtitle">
+          <span class="typing-text" id="typingText" aria-live="polite"></span>
+          <span class="cursor" aria-hidden="true">|</span>
+        </p>
+      </div>
+      
+      <p class="hero-tagline" aria-label="Professional attributes">
+        <span class="tag"><strong>Cute Engineer</strong></span>
+        <span class="tag"><strong>Serious Tech</strong></span>
+        <span class="tag"><strong>Joyful Chaos</strong></span>
+      </p>
+
+      <div class="hero-description">
+        <div style="text-align: center;">
+          <p><strong>Hello, my name is Ankita Debnath. I am a Computer Science and Engineering undergraduate at MCKV Institute of Engineering, graduating in 2026.
+          I have a strong passion for building impactful digital experiences through software development, specializing in web and application development along with UI/UX design.</strong></p>
+
+          <p><strong>I am proficient in C, Java, and Python, and have a solid foundation in data structures, operating systems, and computer networks. I have completed certifications in Web Development and Artificial Intelligence, gaining practical experience through academic projects and internships. 
+          I am always eager to explore new technologies, design intuitive user experiences, and apply my skills to solve meaningful real-world problems.</strong></p>
+        </div>
+
+      </div>
+    
+      <div class="hero-buttons">
+        <a href="resume/Ankita_Resume.pdf" download class="btn btn-primary glass-btn" aria-label="Download Ankita's resume as PDF">
+          <span>Download Resume</span>
+          <span class="btn-icon" aria-hidden="true">📄</span>
+        </a>
+        <a href="tel:+919681422028" class="btn btn-secondary glass-btn" aria-label="Call Ankita at +91 96814 22028">
+          <span>Let's Talk</span>
+          <span class="btn-icon" aria-hidden="true">📞</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer glass-card" role="contentinfo">
+  <p><em>Developed & designed by Ankita Debnath</em></p>
+  <p class="footer-tagline"><strong>&copy; 2026 | Coded with passion | All rights are reserved</strong></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
